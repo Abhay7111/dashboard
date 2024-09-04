@@ -1,0 +1,15 @@
+*{
+    color: #616161;
+}
+
+html, body{
+    background-color: #D1E9F6;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+.ul li{
+    font-size: 12px;
+}
