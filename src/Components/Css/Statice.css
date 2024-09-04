@@ -1,15 +1,30 @@
 *{
-    color: #616161;
+    color: #ccd0cf;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 html, body{
-    background-color: #D1E9F6;
+    background-color: #06141b;
 }
 .oswald {
   font-family: "Oswald", sans-serif;
   font-style: normal;
 }
 
+.normal-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
 .ul li{
     font-size: 12px;
+}
+
+.h-calc-56{
+    height: calc(100vh - 58px);
 }

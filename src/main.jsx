@@ -6,9 +6,15 @@ import './index.css';
 import './Components/Css/Statice.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Local from './Components/Local/Local.jsx';
+import Home from './Components/Homescreen/Home.jsx';
 
   const routes = createBrowserRouter([
-    {path:'/', element:<Local/>,}
+    {path:'/', element:<Local/>,
+      children:[
+        {path:'', element:<Home/>,},
+      ]
+    },
+    {path:'*', element:'Sorry this page not found',}
   ])
 
 createRoot(document.getElementById('root')).render(
